@@ -75,7 +75,7 @@ img {
 }
 
 .in-text-link {
-  color: #FDF6E9;
+  color: #DFAEA1;
 }
 
 label {
@@ -202,7 +202,7 @@ label {
   min-width: 50vh;
 }
 
-.projects {
+.project {
   margin: 10rem;
 }
 
@@ -247,7 +247,30 @@ label {
 }
 
 .button-box{
-  flex: 1;
+  flex: 2;
   display: flex;
   align-items: right;
+}
+
+.about-info {
+  display: flex;
+  margin: 5rem;
+}
+
+.about-text{
+  flex: 2;
+  padding-top: 5rem;
+}
+
+.about-img-container{
+  flex: 1;
+  margin-left: 3rem;
+}
+
+.about-img{
+  min-width: 100%;
+}
+
+.artifacts {
+  display: flex;
 }

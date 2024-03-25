@@ -1,35 +1,20 @@
-/*
-  STYLE GUIDE STYLING
-  Default styling for the style guide
-*/
-html {
-  /* font-size: 25px; */
-}
-
 header {
   display: flex;
-  /* width: 100%; */
 }
 
 body {
-  height: 100%
-  width 100%
   text-align: left;
   margin-left: 2rem;
   margin-right: 2rem;
-  /* font-weight: bold; */
   letter-spacing: .05rem;
   font-family:'Montserrat';
-  background-color: #FDF6E9;
-  /* padding: 1.5rem; */
-  color: #1D1D4B;
+  background-color: #013D5A;
+  color: #FDF6E9;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Gopher";
-  color: #1D1D4B;
-
-  /* letter-spacing: -.02rem; */
+  color: #FDF6E9;
 }
 
 .title{
@@ -37,50 +22,31 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
 }
 
-
+.title-text {
+  text-decoration: none;
+}
 
 .main-nav {
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
   align-items: right;
+  text-align: right;
   flex-wrap: wrap;
   flex: 1;
 }
 
 .element {
   padding-bottom: 1rem;
-  border-top-width: 0.05rem;
+  border-top-width: 0.25rem;
   border-top-style: solid;
-  border-top-color: #1D1D4B;
-}
-
-h2 {
-  /* font-size: 1.5rem; */
-  /* margin-top: 2.5rem; */
-  /* margin-bottom: -1rem; */
-  /* background-color: rgb(141, 161, 159); */
-}
-
-h3 {
-  /* font-size: 1.2rem; */
-  /* margin-bottom: -.2rem; */
-  /* font-style: italic; */
-  /* margin-top: .5rem; */
-}
-
-h4 {
-  /* font-size: .8rem; */
-  /* margin-bottom: 0rem; */
-}
-
-p {
-  /* font-size: 0.75rem; */
-  /* margin-top: 0rem; */
+  border-top-color: #895159;
+  /* margin-left: -3rem; */
 }
 
 nav a {
   font-weight: bold;
   margin: 1rem;
-  color: #38385C;
+  color: #FDF6E9;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -88,148 +54,67 @@ nav a {
 nav a:hover, nav a:focus {
   font-weight: bolder;
   text-decoration: none;
-  color: #151530;
+  color: #DFAEA1;
 }
 
 nav {
-
-  text-align: right;
-  /* background-color: rgb(141, 161, 159); */
-  /* padding: .4rem; */
-  /* border: none;
-  border-radius: 1rem; */
+ text-align: center;
 }
 
-
-/* learned how to round corners form this site: https://www.w3schools.com/howto/howto_css_round_buttons.asp */
 code {
   border: none;
   border-radius: 1rem;
   background-color: #EEE;
   padding: 0.5rem;
-  display: block;
-  color: rgb(141, 161, 159);
-  font-size: .65rem;
-}
-
-li {
-  font-size: .75rem;
+  display: inline-block;
+  color: black;
 }
 
 img {
-  width: 15rem;
-  height: 15rem;
-}
-
-.nav-button {
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: #8DA19F;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.6s;
-  border: none;
-  border-radius: 1.5rem:
-}
-
-.nav-button:hover, .nav-button:focus {
-  box-shadow: 3px, 3px;
-  /* background-color: #6C7C7A; */
-  color: rgb(246, 186, 80);
+  max-width: 30rem;
 }
 
 .in-text-link {
-  font-size: .75rem;
-  color: rgb(141, 161, 159);
-}
-
-.in-text-link:hover, .in-text-link:active {
-  font-style: italic;
-  color: #8BBFBA;
-}
-
-.submit-button {
-  border: none;
-  text-align: center;
-  margin: 4px 2px;
-  display: inline-block;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  color: white;
-  background-color: #F6BA50;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.6s;
-  border-radius: 1rem;
-}
-
-.submit-button:hover, .submit-button:focus {
-  background-color: #DD971B;
-}
-
-.reset-button {
-  border: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  color: white;
-  background-color: #8DA19F;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.6s;
-  border-radius: 1rem;
-}
-
-.reset-button:hover, .reset-button:focus {
-  box-shadow: 3px, 3px;
-  background-color: #8BBFBA;
-}
-
-.submit {
-  border: none;
-  text-align: center;
-  border-radius: 1rem;
-  display: inline-block;
-  padding: 0.25rem;
-  color: white;
-  background-color: #F6BA50;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.6s;
-}
-
-.submit:hover, .submit:focus {
-  /* box-shadow: 3px, 3px; */
-  background-color: #DD971B;
-}
-
-.text-input {
-  border: none;
-  border-radius: 1rem;
-  padding: .18rem;
-  margin: .1rem;
+  color: #FDF6E9;
 }
 
 label {
   font-size: .8rem;
 }
 
-form {
-  display: block;
-  padding: .5rem;
-  border: solid;
-  border-radius: 1rem;
+.in-text-link:hover, .in-text-link:active {
+  font-style: italic;
+  color: #DFAEA1;
+  text-decoration: none;
 }
 
-.radio-input {
-  padding: .25rem;
-  font-style: oblique;
+.button {
+  border: none;
+  text-align: center;
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #FDF6E9;
+  background-color: #895159;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.6s;
+}
+
+.button:hover, .button:focus {
+  /* box-shadow: 3px, 3px; */
+  background-color: #DFAEA1;
+}
+
+.text-input {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: .1rem;
 }
 
 .image-link * {
@@ -250,82 +135,119 @@ form {
   opacity: 0.4;
 }
 
-.products {
+.project-flex {
   display: flex;
-  margin-left: 1.5rem;
-  margin-top: 3rem;
+  border: black;
+  border-width: medium;
 }
 
-.product-listing  {
+.project-list  {
   display: flex;
-}
-.box1 {
-}
-
-.box2{
-  padding-left: 1.5rem;
-}
-
-.product-img {
-  /* padding-left: 3rem; */
-  /* padding-right: 3rem; */
-  pro
-}
-
-.product1, .product2, .product3 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-
-}
-
-.checkout {
-  /* color: white; */
-  display: flex;
-  margin: 2rem;
-  align-items: flex-end;
-  /* border-bottom: 3px white solid; */
-}
-
-.checkout-description {
-  margin-left: 1rem;
-  margin-bottom: .25rem;
-}
-
-.product-qty label {
-  color: #D8754E;
-}
-
-.checkout-container {
-  flex: display;
-  flex-direction: column;
-}
-
-.img-checkout img {
-  width: 10rem;;
-  height: auto;
-}
-
-.product-detail{
-  display: flex;
-  margin: 2rem;
-  align-items: center;
-}
-
-.detail{
+  flex-direction:column;
   margin-left: 2rem;
+  margin-top: auto;
 }
 
-.detail p {
-  width: 70%;
-}
-.name-container {
-  display:flex;
-}
-
-.last-name {
-  margin-left: 1rem;
+.contact {
+  display: inline-block;
+  padding: .5rem;
+  border: solid #FDF6E9;
+  border-radius: 1rem;
 }
 
-.payment-spacing {
-  padding-top: .5rem;
+.home-banner {
+  background-color: #FDF6E9;
+  min-height: 90vh;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.alt-color {
+  color: #013D5A;
+}
+
+#home-text, #home-text2, #home-text3, #home-text4{
+  text-align: right;
+  font-style: bold;
+  margin-right: 8rem;
+  font-size: 8rem;
+}
+
+#home-text{
+  margin-right: 8rem;
+  margin-top: 0;
+  padding-top: 5rem;
+}
+
+#home-text2, #home-text3, #home-text4{
+  margin-top: -9.5rem;
+}
+
+.stroke {
+  text-shadow: -0.2rem -0.2rem 0 #013D5A, 0.2rem -0.2rem 0 #013D5A, -0.2rem 0.2rem 0 #013D5A, 0.2rem 0.2rem 0 #013D5A;
+}
+
+.banner-text{
+  align-text: center;
+  flex: 0;
+}
+
+.banner-img{
+  flex: 4;
+  margin-top: 15.5vh;
+  margin-left: 16rem;
+
+  min-width: 50vh;
+}
+
+.projects {
+  margin: 10rem;
+}
+
+.checkout{
+  padding-right: 7rem;
+  padding-left: 7rem;
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  border-width: 0.15rem;
+  border-style: solid;
+  border-color: #DFAEA1;
+  border-radius: 2rem;
+  padding: 5rem;
+}
+
+.project-description {
+  flex: 5;
+  align-items: top;
+  margin: 2rem;
+  /* margin-right: 6rem; */
+}
+
+.project-img * {
+  box-sizing: border-box;
+  transition: all 0.45s ease;
+}
+
+.project-img img {
+  max-width: 9rem;
+  max-height: 9rem;
+}
+
+.project-img:hover > img {
+  opacity: 0.7;
+}
+
+.project-img:focus > img {
+  filter:brightness(70%);
+}
+
+.button-box{
+  flex: 1;
+  display: flex;
+  align-items: right;
 }

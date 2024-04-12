@@ -1,9 +1,9 @@
 
 @font-face {
-	font-family: 'Gopher'; //for the headers
+	font-family: 'Cigra'; //for the headers
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/GopherText-Medium.ttf') format('truetype');
+	src: url('../fonts/Cigra.ttf') format('truetype');
 }
 
 @font-face {

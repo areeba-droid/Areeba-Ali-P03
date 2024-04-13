@@ -10,10 +10,12 @@ body {
   font-family:'Montserrat';
   background-color: #141414;
   color: #FFF0C7;
+  font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cigra';
+  font-weight: normal;
   color: #FFF0C7;
 }
 
@@ -28,9 +30,11 @@ p {
 
 .title-text {
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .main-nav {
+  font-weight: 100;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   align-items: right;
@@ -44,6 +48,11 @@ p {
   border-top-width: 0.25rem;
   border-top-style: solid;
   border-top-color: #37523A;
+}
+
+.home-name {
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 nav a {
@@ -130,7 +139,8 @@ label {
 }
 
 .image-link:hover > img {
-  opacity: 0.7;
+  opacity: 0.8;
+  transform: scale(0.8);
 }
 
 .image-link:active :focus {
@@ -177,4 +187,76 @@ label {
 
 .description-flexbox {
   font-size: 1.5rem;
+}
+
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  margin-bottom: 5rem;
+}
+
+.project {
+  margin: .5rem;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.proj-image {
+  background-color: #9EB995;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.proj-text {
+  background-color: #37523A;
+  height: 100%;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 30vw;
+  align-content: center;
+}
+
+#middle-text {
+  max-width: 20vw;
+}
+
+.VIFF-img {
+  max-width: 30vw;
+}
+
+.AgeWell-img {
+  max-width: 20vw;
+}
+
+.analysis-container {
+  display: flex;
+  margin: 2rem;
+}
+
+.team-text {
+  margin: 1rem;
+  flex: 1;
+}
+
+.overview-text{
+  margin: 1rem;
+  flex: 3;
+}
+
+.artifacts {
+  display: flex;
+  justify-content: center;
+}
+
+.artifact-img {
+  max-width: 30vw;
+}
+
+#smaller-img {
+  max-width: 20vw;
 }
